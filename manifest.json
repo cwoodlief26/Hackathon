@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "JS-Notes",
+    "description": "The best Javascript notes!",
+    "version" : "2.0",
+
+    "chrome_url_overrides" : {
+        "newtab" : "index.html"
+    },
+
+    "browser_action" : {
+        "default_icon" : "icons/JS_icon.png",
+        "default_popup": "index.html"
+    },
+
+    "permissions" : [
+        "tabs"
+    ]
+
+
+}
